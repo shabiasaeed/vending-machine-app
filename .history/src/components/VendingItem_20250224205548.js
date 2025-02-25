@@ -12,7 +12,7 @@ export default function VendingItem({ purchaseItem, item, i }) {
       <div className="item bg-warning text-warning">{item.itemName}</div>
       <div className="item-price bg-info text-info">Price: ${item.price / 100}</div>
       <br></br>
-      <a onClick={purchaseItem} data-value={item.itemName} className="btn-purchase">Buy</a>
+      <a onClick={purchaseItem} data-value={item.itemName} className="btn-purchase" href="#">Buy</a>
     </div>
   );
 }
