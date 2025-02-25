@@ -100,7 +100,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
 .btn-warning--coins {
@@ -212,8 +212,8 @@ h1 {
   }
 
   .btn-warning--coins {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     font-size: 14px;
   }
 }
